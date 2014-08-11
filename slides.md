@@ -195,12 +195,18 @@ Notes:
 
 ## Configuration Management
 
-### What problem does it solve?
+Drupal 7 _workarounds_
 
-- ~~Features~~ <!-- .element: class="fragment" -->
-- ~~CTools Exportables~~ <!-- .element: class="fragment" -->
-- ~~Variables~~ <!-- .element: class="fragment" -->
-- ~~hook_update_N()~~ <!-- .element: class="fragment" -->
+- Features <!-- .element: class="fragment" --> **&#x2717;** <!-- .element: class="fragment cross" -->
+- CTools Exportables <!-- .element: class="fragment" --> **&#x2717;** <!-- .element: class="fragment cross" -->
+- Variables <!-- .element: class="fragment" --> **&#x2717;** <!-- .element: class="fragment cross" -->
+- hook_update_N() <!-- .element: class="fragment" --> **&#x2717;** <!-- .element: class="fragment cross" -->
+
+<br />
+
+Drupal 8  <!-- .element: class="fragment" -->
+
+- Drupal 8: Unified Configuration API <!-- .element: class="fragment" --> **&#x2713;** <!-- .element: class="fragment check" -->
 
 Note:
 
@@ -240,3 +246,39 @@ drush config-import staging
 <!-- .element: class="fragment" data-fragment-index="4" -->
 5. Profit! <!-- .element: class="fragment" data-fragment-index="5" -->
 
+---
+
+## Multilingual
+
+Drupal 7 _workarounds_
+
+- Core Locale & Content Translation <!-- .element: class="fragment" -->
+- i18n module including <!-- .element: class="fragment" -->
+    - i18n_block
+    - i18n_contact
+    - i18n_field
+    - i18n_menu
+    - i18n_path
+    - i18n_redirect
+    - i18n_string
+    - i18n_taxonomy
+    - i18n_user
+    - i18n_variable
+- Variable module <!-- .element: class="fragment" -->
+- Title module <!-- .element: class="fragment" -->
+- Entity Translation <!-- .element: class="fragment" -->
+
+--
+
+## Drupal 8
+
+### Supports Translatable:
+
+- Entities <!-- .element: class="fragment" -->
+- Fields (including base fields) <!-- .element: class="fragment" -->
+- Configuration <!-- .element: class="fragment" -->
+- <!-- .element: class="fragment" --> _Installer_ <!-- .element: class="fragment" -->
+
+<br/>
+
+More than all of the D7 contrib modules combined. <!-- .element: class="fragment" -->
