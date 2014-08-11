@@ -10,29 +10,17 @@ Kim Pepper
 
 ---
 
-## Who Is This For?
-
-- Drupal 7 Site Builders <!-- .element: class="fragment" data-fragment-index="1" -->
-- Drupal 7 Developers <!-- .element: class="fragment" data-fragment-index="2" -->
-- Drupal 7 Site Administrators <!-- .element: class="fragment" data-fragment-index="3" -->
-
-Note:
-- Drupal site builders, not developers, or themers
-- Site admins might find it useful
-
----
-
 ## So What's New?
 
-- Configuration management <!-- .element: class="fragment" data-fragment-index="1" -->
-- Contrib modules now in core <!-- .element: class="fragment" data-fragment-index="2" -->
-- Blocks improvements  <!-- .element: class="fragment" data-fragment-index="3" -->
-- CKEditor  <!-- .element: class="fragment" data-fragment-index="4" -->
-- New field types  <!-- .element: class="fragment" data-fragment-index="5" -->
-- Display and form modes <!-- .element: class="fragment" data-fragment-index="6" -->
-- Reponsive support  <!-- .element: class="fragment" data-fragment-index="7" -->
-- Multingual  <!-- .element: class="fragment" data-fragment-index="8" -->
-- much much more...  <!-- .element: class="fragment" data-fragment-index="9" -->
+- Configuration management <!-- .element: class="fragment" -->
+- Contrib modules now in core <!-- .element: class="fragment" -->
+- Blocks improvements  <!-- .element: class="fragment" -->
+- CKEditor  <!-- .element: class="fragment" -->
+- New field types  <!-- .element: class="fragment" -->
+- Display and form modes <!-- .element: class="fragment"  -->
+- Reponsive support  <!-- .element: class="fragment" -->
+- Multingual  <!-- .element: class="fragment" -->
+- much much more...  <!-- .element: class="fragment" -->
 
 Note:
 - Lots of architectural changes under the hood (symfony routing & services, plugins)
@@ -43,22 +31,23 @@ Note:
 
 ## Redundant Drupal 7 Contrib Modules
 
-- Views <!-- .element: class="fragment" data-fragment-index="1" -->
-- Views Bulk Opertations <!-- .element: class="fragment" data-fragment-index="2" -->
-- Admin Views <!-- .element: class="fragment" data-fragment-index="3" -->
-- Bean <!-- .element: class="fragment" data-fragment-index="4" -->
-- WYSIWYG <!-- .element: class="fragment" data-fragment-index="5" -->
-- Link <!-- .element: class="fragment" data-fragment-index="6" -->
-- Date <!-- .element: class="fragment" data-fragment-index="7" -->
-- Email <!-- .element: class="fragment" data-fragment-index="8" -->
-- Phone <!-- .element: class="fragment" data-fragment-index="9" -->
-- UUID <!-- .element: class="fragment" data-fragment-index="10" -->
-- Entity API <!-- .element: class="fragment" data-fragment-index="11" -->
-- Entity Cache <!-- .element: class="fragment" data-fragment-index="12" -->
-- Entity Reference <!-- .element: class="fragment" data-fragment-index="13" -->
-- Menu Block* <!-- .element: class="fragment" data-fragment-index="14" -->
-- Webform* <!-- .element: class="fragment" data-fragment-index="14" -->
-- ...and many more. <!-- .element: class="fragment" data-fragment-index="15" -->
+- Views <!-- .element: class="fragment" -->
+- Views Bulk Opertations <!-- .element: class="fragment" -->
+- Admin Views <!-- .element: class="fragment" -->
+- Bean <!-- .element: class="fragment" -->
+- WYSIWYG <!-- .element: class="fragment" -->
+- Link <!-- .element: class="fragment" -->
+- Date <!-- .element: class="fragment" -->
+- Email <!-- .element: class="fragment" -->
+- Phone <!-- .element: class="fragment" -->
+- UUID <!-- .element: class="fragment" -->
+- Entity API <!-- .element: class="fragment" -->
+- Entity Cache <!-- .element: class="fragment" -->
+- Entity Reference <!-- .element: class="fragment" -->
+- Entity View Modes <!-- .element: class="fragment" -->
+- Menu Block* <!-- .element: class="fragment" -->
+- Webform* <!-- .element: class="fragment" -->
+- ...and many more. <!-- .element: class="fragment" -->
 
 ---
 
@@ -167,14 +156,51 @@ Date Field
 
 ---
 
+## Comments
+
+- Attached to **any** entity (via fields) <!-- .element: class="fragment"  -->
+- Private / public threads? <!-- .element: class="fragment"  -->
+- Comments on user profiles? <!-- .element: class="fragment"  -->
+
+---
+
+## Display Modes
+
+- View Modes
+- _Form_ Modes
+
+--
+
+## View Modes
+
+![View Modes](/images/display-modes/view-modes.png)
+
+Notes:
+
+- Replaces Entity View Modes module
+
+--
+
+## Form Modes
+
+![View Modes](/images/display-modes/manage-form.png)
+
+--
+
+## Configure Form Fields
+
+![View Modes](/images/display-modes/form-modes.png)
+
+---
+
 ## Configuration Management
 
 ### What problem does it solve?
 
-- ~~Features~~ <!-- .element: class="fragment" data-fragment-index="1" -->
-- ~~CTools Exportables~~ <!-- .element: class="fragment" data-fragment-index="2" -->
-- ~~Variables~~ <!-- .element: class="fragment" data-fragment-index="3" -->
-- ~~hook_update_N()~~ <!-- .element: class="fragment" data-fragment-index="4" -->
+- ~~Features~~ <!-- .element: class="fragment" -->
+- ~~CTools Exportables~~ <!-- .element: class="fragment" -->
+- ~~Variables~~ <!-- .element: class="fragment" -->
+- ~~hook_update_N()~~ <!-- .element: class="fragment" -->
 
 Note:
 
