@@ -132,6 +132,39 @@ Note:
 
 - Mobile friendly fields
 
+
+--
+
+Link Field
+
+![link Field](/images/fields/link-field.png)
+
+--
+
+Email Field
+
+![Email Field](/images/fields/email-field.png)
+
+--
+
+Telephone Field
+
+![Phone Field](/images/fields/phone-field.png)
+
+--
+
+<!-- .slide: data-transition="none" -->
+Date Field
+
+![Date Field 1](/images/fields/date-field-1.png)
+
+--
+
+<!-- .slide: data-transition="none" -->
+Date Field
+
+![Date Field 2](/images/fields/date-field-2.png)
+
 ---
 
 ## Configuration Management
