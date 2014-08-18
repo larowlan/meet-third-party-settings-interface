@@ -25,6 +25,28 @@
     <style>
         .cross {color: red;}
         .check {color: green;}
+        body {
+            background-image: -webkit-gradient(
+                linear,
+                left top,
+                left bottom,
+                color-stop(0.48, #EBECF0),
+                color-stop(0.67, #FFFFFF)
+            );
+            background-image: -o-linear-gradient(bottom, #EBECF0 48%, #FFFFFF 67%);
+            background-image: -moz-linear-gradient(bottom, #EBECF0 48%, #FFFFFF 67%);
+            background-image: -webkit-linear-gradient(bottom, #EBECF0 48%, #FFFFFF 67%);
+            background-image: -ms-linear-gradient(bottom, #EBECF0 48%, #FFFFFF 67%);
+            background-image: linear-gradient(to bottom, #EBECF0 48%, #FFFFFF 67%);
+        }
+        body .reveal {
+            background: #00235d;
+            background-image: url(/images/pnx-logo-dark.png);
+            background-position: right bottom;
+            background-position-x: 2%;
+            background-position-y: 96%;
+            background-repeat: no-repeat;
+        }
     </style>
 
     <!-- If the query includes 'print-pdf', include the PDF print sheet -->

@@ -267,6 +267,8 @@ Drupal 7 _workarounds_
 - Variable module <!-- .element: class="fragment" -->
 - Title module <!-- .element: class="fragment" -->
 - Entity Translation <!-- .element: class="fragment" -->
+- ...more??? <!-- .element: class="fragment" -->
+
 
 --
 
