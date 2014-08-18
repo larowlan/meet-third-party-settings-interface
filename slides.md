@@ -53,10 +53,10 @@ Note:
 
 ## Blocks
 
-- Fieldable
-- Blocks support multiple instances
-- Config exportable
-- Conditions Plugins API
+- Fieldable <!-- .element: class="fragment" -->
+- Multiple instances  <!-- .element: class="fragment" -->
+- Config exportable  <!-- .element: class="fragment" -->
+- Conditions Plugins API  <!-- .element: class="fragment" -->
 
 Note:
 
@@ -90,20 +90,6 @@ Note:
 
 - Fieldable
 - Replaces BEAN & Fieldable Panel Panes
-
---
-
-## Menu Block
-
-- Core menus moving to blocks
-- Basic `menu_block` functionality
-
---
-
-## Page Manager
-
-- Uses core Condition API
-- (Coming soon)
 
 ---
 
@@ -162,6 +148,24 @@ Date Field
 - Private / public threads? <!-- .element: class="fragment"  -->
 - Comments on user profiles? <!-- .element: class="fragment"  -->
 
+--
+
+### Comment Types
+
+![Comment Types](/images/comments/comment-types.png)
+
+--
+
+### Article Fields
+
+![Comment Types](/images/comments/article-fields.png)
+
+--
+
+### Article Comment Settings
+
+![Comment Types](/images/comments/article-settings.png)
+
 ---
 
 ## Display Modes
@@ -190,6 +194,23 @@ Notes:
 ## Configure Form Fields
 
 ![View Modes](/images/display-modes/form-modes.png)
+
+---
+
+## Contact Forms
+
+- Fieldable Entity
+- Webform Replacement?
+
+Note:
+
+- Requires storage and reporting
+
+--
+
+### Contact Form Fields
+
+![Contact Form](/images/contact/contact-form.png)
 
 ---
 
@@ -272,9 +293,7 @@ Drupal 7 _workarounds_
 
 --
 
-## Drupal 8
-
-### Supports Translatable:
+## Drupal 8 Multilingual
 
 - Entities <!-- .element: class="fragment" -->
 - Fields (including base fields) <!-- .element: class="fragment" -->
@@ -284,3 +303,50 @@ Drupal 7 _workarounds_
 <br/>
 
 More than all of the D7 contrib modules combined. <!-- .element: class="fragment" -->
+
+--
+
+## Multilingual Modules
+
+![Multilingual Modules](/images/multilingual/modules.png)
+
+--
+
+## Drupal Installer
+
+![Install Drupal](/images/multilingual/install-drupal.png)
+
+--
+
+## Drupal Installer
+
+![Install Drupal](/images/multilingual/install-2.png)
+
+---
+
+# The Future
+
+
+- Menu Block?
+- Display Suite?
+- Page Manager / Panels?
+- Metatags?
+- Release date?
+
+--
+
+## Menu Block
+
+- Core menus moving to blocks
+- Basic `menu_block` functionality
+
+--
+
+## Page Manager
+
+- Uses core Condition API
+- (Coming soon)
+
+---
+
+# Questions?
