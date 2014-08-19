@@ -10,6 +10,16 @@ Kim Pepper
 
 ---
 
+## So What's Wrong With Drupal 7?
+
+Note:
+
+- Often, don't notice there was an issue until something better comes along
+- D7 was a big improvement over D6: fields, entities (only half baked)
+- Still rely heavily on contrib: wysiwyg, menu block, and ctools for basic building blocks
+
+---
+
 ## So What's New?
 
 - Configuration management <!-- .element: class="fragment" -->
@@ -211,6 +221,24 @@ Note:
 ### Contact Form Fields
 
 ![Contact Form](/images/contact/contact-form.png)
+
+---
+
+## Responsive
+
+- Responsive toolbar
+- Responvive Images
+
+--
+
+## Responsive Images
+
+![Responsive](/images/responsive/responsive-image.png)
+
+Note:
+
+- No UI for breakpoints
+- Moving to theme.info.yml
 
 ---
 
