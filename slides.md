@@ -36,28 +36,36 @@ Note:
 - Lots of architectural changes under the hood (symfony routing & services, plugins)
 - A number of site-building improvements
 - A lot of contrib modules are now core features
+- Entities: lots of things are now fieldable
+- Plugins: easier/consistent way to extend core features.
 
 ---
 
-## Redundant Drupal 7 Contrib Modules
+## Redundant Modules
 
-- Views <!-- .element: class="fragment" -->
-- Views Bulk Opertations <!-- .element: class="fragment" -->
-- Admin Views <!-- .element: class="fragment" -->
-- Bean <!-- .element: class="fragment" -->
-- WYSIWYG <!-- .element: class="fragment" -->
-- Link <!-- .element: class="fragment" -->
-- Date <!-- .element: class="fragment" -->
-- Email <!-- .element: class="fragment" -->
-- Phone <!-- .element: class="fragment" -->
-- UUID <!-- .element: class="fragment" -->
-- Entity API <!-- .element: class="fragment" -->
-- Entity Cache <!-- .element: class="fragment" -->
-- Entity Reference <!-- .element: class="fragment" -->
-- Entity View Modes <!-- .element: class="fragment" -->
-- Menu Block* <!-- .element: class="fragment" -->
-- Webform* <!-- .element: class="fragment" -->
-- ...and many more. <!-- .element: class="fragment" -->
+- Views
+- Views Bulk Opertations
+- Admin Views
+- Bean
+- WYSIWYG
+- Link
+- Date
+- Email
+- Phone
+
+--
+
+## Redundant Modules
+
+- UUID
+- Entity API
+- Entity Cache
+- Entity Reference
+- Entity View Modes
+- Menu Block*
+- Webform*
+
+- ...and many more.
 
 ---
 
@@ -113,42 +121,11 @@ New field types:
 - Phone <!-- .element: class="fragment" -->
 - Entity Reference <!-- .element: class="fragment" -->
 
-Note:
-
-- Mobile friendly fields
-
-
 --
 
-Link Field
+## Mobile Friendly
 
-![link Field](/images/fields/link-field.png)
-
---
-
-Email Field
-
-![Email Field](/images/fields/email-field.png)
-
---
-
-Telephone Field
-
-![Phone Field](/images/fields/phone-field.png)
-
---
-
-<!-- .slide: data-transition="none" -->
-Date Field
-
-![Date Field 1](/images/fields/date-field-1.png)
-
---
-
-<!-- .slide: data-transition="none" -->
-Date Field
-
-![Date Field 2](/images/fields/date-field-2.png)
+![Mobile Screenshots](/images/fields/mobile.png)
 
 ---
 
@@ -359,22 +336,19 @@ More than all of the D7 contrib modules combined. <!-- .element: class="fragment
 - Display Suite?
 - Page Manager / Panels?
 - Metatags?
-- Release date?
+- Pathauto?
 
---
 
-## Menu Block
-
-- Core menus moving to blocks
-- Basic `menu_block` functionality
-
---
-
-## Page Manager
-
-- Uses core Condition API
-- (Coming soon)
+- When will Drupal 8 be released?
 
 ---
 
 # Questions?
+
+---
+
+## Thanks!
+
+<kim@previousnext.com.au>
+
+[@kimb0oo](https://twitter.com/kimb0oo)
