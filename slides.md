@@ -12,15 +12,18 @@ Kim Pepper
 
 ## So What's Wrong With Drupal 7?
 
+- _If it ain't broke..._ <!-- .element: class="fragment" -->
+
 Note:
 
-- Often, don't notice there was an issue until something better comes along
+- Often, we don't notice there is a limitation until something better comes along
+- we accept the work-arounds
 - D7 was a big improvement over D6: fields, entities (only half baked)
 - Still rely heavily on contrib: wysiwyg, menu block, and ctools for basic building blocks
 
 ---
 
-## So What's New?
+## Is it worth the upgrade?
 
 - Configuration management <!-- .element: class="fragment" -->
 - Contrib modules now in core <!-- .element: class="fragment" -->
@@ -329,17 +332,36 @@ More than all of the D7 contrib modules combined. <!-- .element: class="fragment
 
 ---
 
-# The Future
+## The Future
 
 
 - Menu Block?
 - Display Suite?
 - Page Manager / Panels?
-- Metatags?
+- Token?
 - Pathauto?
+- Metatags?
+- Features?
+- Webforms?
 
+--
+
+## When can I get it?
 
 - When will Drupal 8 be released?
+- Semantic versioning?
+
+Note:
+
+- Menu block: currently core issue
+- Display Suite: alpha release
+- Page Manager: Conditions Plugin API
+- Panels: Port under way built on top of Page Manager
+- Token: Port in progress on Github
+- Pathauto: Port in progress on Github
+- Metatags: Not started
+- Features: Configuration development module
+- Contact: contact storage
 
 ---
 
@@ -347,7 +369,7 @@ More than all of the D7 contrib modules combined. <!-- .element: class="fragment
 
 ---
 
-## Thanks!
+## Thank you!
 
 <kim@previousnext.com.au>
 
