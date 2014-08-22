@@ -72,6 +72,35 @@ Note:
 
 ---
 
+## Views
+
+![Views](/images/views/views.png)
+
+Note:
+
+- Replaces admin_views
+- Uses core plugin api
+
+---
+
+## WYSIWYG
+
+![WYSIWYG](/images/wysiwyg/wysiwyg.png)
+
+--
+
+### Insert Image
+
+![WYSIWYG](/images/wysiwyg/insert-image.png)
+
+Note:
+
+- Uses Plugin api for CKEditor plugins
+
+
+
+---
+
 ## Blocks
 
 - Fieldable <!-- .element: class="fragment" -->
