@@ -53,8 +53,7 @@ Note:
 - WYSIWYG
 - Link
 - Date
-- Email
-- Phone
+- Ctools
 
 --
 
@@ -79,7 +78,7 @@ Note:
 Note:
 
 - Replaces admin_views
-- Uses core plugin api
+- Uses core plugin api instead of ctools
 
 ---
 
@@ -96,8 +95,7 @@ Note:
 Note:
 
 - Uses Plugin api for CKEditor plugins
-
-
+- Theodore mentioned Quail JS integration
 
 ---
 
@@ -118,7 +116,10 @@ Note:
 
 ![Block Layout Screen](/images/blocks/block-layout.png)
 
+Note:
+
 - Block _Types_ allow for multiple instances
+- replaces Multi-block
 
 --
 
@@ -382,6 +383,7 @@ More than all of the D7 contrib modules combined. <!-- .element: class="fragment
 
 Note:
 
+- 2 beta blockers
 - Menu block: currently core issue
 - Display Suite: alpha release
 - Page Manager: Conditions Plugin API
