@@ -9,6 +9,6 @@ npm install
 ## Running
 
 ```
-grunt
+grunt serve
 ```
 
