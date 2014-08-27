@@ -1,4 +1,4 @@
-# Drupal <img src="/images/d8-logo.png" alt="Drupal 8 logo" width="100" style="background:none; border:none; margin: 0; box-shadow: none">
+# Drupal <img src="images/d8-logo.png" alt="Drupal 8 logo" width="100" style="background:none; border:none; margin: 0; box-shadow: none">
 
 ## For Site Builders
 
@@ -73,7 +73,7 @@ Note:
 
 ## Views
 
-![Views](/images/views/views.png)
+![Views](images/views/views.png)
 
 Note:
 
@@ -84,13 +84,13 @@ Note:
 
 ## WYSIWYG
 
-![WYSIWYG](/images/wysiwyg/wysiwyg.png)
+![WYSIWYG](images/wysiwyg/wysiwyg.png)
 
 --
 
 ### Insert Image
 
-![WYSIWYG](/images/wysiwyg/insert-image.png)
+![WYSIWYG](images/wysiwyg/insert-image.png)
 
 Note:
 
@@ -114,7 +114,7 @@ Note:
 
 ## Block Layout
 
-![Block Layout Screen](/images/blocks/block-layout.png)
+![Block Layout Screen](images/blocks/block-layout.png)
 
 Note:
 
@@ -125,7 +125,7 @@ Note:
 
 ## Configure Block
 
-![Configure Block Screen](/images/blocks/configure-block.png)
+![Configure Block Screen](images/blocks/configure-block.png)
 
 Note:
 
@@ -135,7 +135,7 @@ Note:
 
 ## Custom Block Types
 
-![Custom Block Types](/images/blocks/custom-block-types.png)
+![Custom Block Types](images/blocks/custom-block-types.png)
 
 Note:
 
@@ -158,7 +158,7 @@ New field types:
 
 ## Mobile Friendly
 
-![Mobile Screenshots](/images/fields/mobile.png)
+![Mobile Screenshots](images/fields/mobile.png)
 
 ---
 
@@ -172,19 +172,19 @@ New field types:
 
 ### Comment Types
 
-![Comment Types](/images/comments/comment-types.png)
+![Comment Types](images/comments/comment-types.png)
 
 --
 
 ### Article Fields
 
-![Comment Types](/images/comments/article-fields.png)
+![Comment Types](images/comments/article-fields.png)
 
 --
 
 ### Article Comment Settings
 
-![Comment Types](/images/comments/article-settings.png)
+![Comment Types](images/comments/article-settings.png)
 
 ---
 
@@ -197,7 +197,7 @@ New field types:
 
 ## View Modes
 
-![View Modes](/images/display-modes/view-modes.png)
+![View Modes](images/display-modes/view-modes.png)
 
 Notes:
 
@@ -207,13 +207,13 @@ Notes:
 
 ## Form Modes
 
-![View Modes](/images/display-modes/manage-form.png)
+![View Modes](images/display-modes/manage-form.png)
 
 --
 
 ## Configure Form Fields
 
-![View Modes](/images/display-modes/form-modes.png)
+![View Modes](images/display-modes/form-modes.png)
 
 ---
 
@@ -230,7 +230,7 @@ Note:
 
 ### Contact Form Fields
 
-![Contact Form](/images/contact/contact-form.png)
+![Contact Form](images/contact/contact-form.png)
 
 ---
 
@@ -243,7 +243,7 @@ Note:
 
 ## Responsive Images
 
-![Responsive](/images/responsive/responsive-image.png)
+![Responsive](images/responsive/responsive-image.png)
 
 Note:
 
@@ -280,7 +280,7 @@ Note:
 
 ## Single Export / Import
 
-![Single Export](/images/cmi-export.png)
+![Single Export](images/cmi-export.png)
 
 --
 
@@ -346,19 +346,19 @@ More than all of the D7 contrib modules combined. <!-- .element: class="fragment
 
 ## Multilingual Modules
 
-![Multilingual Modules](/images/multilingual/modules.png)
+![Multilingual Modules](images/multilingual/modules.png)
 
 --
 
 ## Drupal Installer
 
-![Install Drupal](/images/multilingual/install-drupal.png)
+![Install Drupal](images/multilingual/install-drupal.png)
 
 --
 
 ## Drupal Installer
 
-![Install Drupal](/images/multilingual/install-2.png)
+![Install Drupal](images/multilingual/install-2.png)
 
 ---
 
