@@ -1,4 +1,4 @@
-# Drupal 8 For Site Builders
+# Slide template
 
 ## Installation
 
