@@ -1,6 +1,6 @@
 # Drupal <img src="images/d8-logo.png" alt="Drupal 8 logo" width="100" style="background:none; border:none; margin: 0; box-shadow: none">
 
-## Sub Title
+## Third Party Settings Interface
 
 Lee Rowlands
 
@@ -10,41 +10,98 @@ Lee Rowlands
 
 ---
 
-## Group 1 Title?
+## What?
 
-- _Stepped bullet point_ <!-- .element: class="fragment" -->
+![window to weight gain](http://i.imgur.com/yUje9.jpg)
 
-Note:
-
-- Using three hyphens --- makes a new group
-- Using two -- makes a new slide
-- These are speakers notes
+- ThirdPartySettingsInterface is your window to <del>weight gain success</del> other module's config entities
 
 ---
 
-## Images like so
+## Drupal 7
 
-![Sample image alt](images/pnx-logo-dark.png)
-
-Note:
-
-- More speaker notes
+![content types](https://www.dropbox.com/s/a8rnhq76oh8bk9t/Screenshot%202014-11-27%2010.09.42.png?dl=1)
 
 ---
 
-## Code samples
+## Drupal 7
 
-1. Configure a config staging dir that is in git<!-- .element: class="fragment" data-fragment-index="1" -->
-```php
-$config_directories[CONFIG_STAGING_DIRECTORY]
-    = 'config';
-```
-<!-- .element: class="fragment" data-fragment-index="1" -->
-2. Export config <!-- .element: class="fragment" data-fragment-index="2" -->
-```bash
-drush config-export staging
-```
-<!-- .element: class="fragment" data-fragment-index="2" -->
+![dumping ground](https://www.dropbox.com/s/e6dduanxeqeoba3/Screenshot%202014-11-27%2010.11.00.png?dl=1)
+
+---
+
+## Drupal 7
+
+- Array PIs
+
+---
+
+## Drupal 8
+
+![default config](https://www.dropbox.com/s/te37plz78vpua5e/Screenshot%202014-11-27%2010.13.21.png?dl=1)
+
+- Config entities
+
+---
+
+## Drupal 8
+
+- Defined interfaces ```$contact_form->getRecipients();```
+- 1:N of something
+
+---
+
+## Drupal 8
+
+- Config schema
+- validates
+- translations
+- governs what is written
+
+---
+
+# Drupal 8
+
+- Extension point - third party settings interface
+- ```\Drupal\Core\Config\Entity\ThirdPartySettingsInterface```
+
+---
+
+# Drupal 8
+
+![use the trait](https://www.dropbox.com/s/dljwm5wy0pymnu8/Screenshot%202014-11-27%2010.18.13.png?dl=1)
+
+- As an owner - ```Drupal\Core\Config\Entity\ThirdPartySettingsTrait```
+
+---
+
+# Drupal 8
+
+![schema](https://www.dropbox.com/s/y7t8dfl76klqdb9/Screenshot%202014-11-27%2010.17.18.png?dl=1)
+
+- Config schema entry
+
+---
+
+# Drupal 8
+
+![consumer schema](https://www.dropbox.com/s/9hvwl2fodmp3rm3/Screenshot%202014-11-27%2010.19.17.png?dl=1)
+
+- As a consumer - define config for your stuff
+
+---
+
+# Drupal 8
+
+![tinker forms](https://www.dropbox.com/s/3sxv2t2z4l5t1rf/Screenshot%202014-11-27%2010.20.23.png?dl=1)
+
+- form alter your fields into the form
+
+---
+
+# Drupal 8
+
+- Sample code - see contact module and contact_storage_test module in core.
 
 ---
 
@@ -54,6 +111,6 @@ drush config-export staging
 
 ## Thank you!
 
-<larowlam@previousnext.com.au>
+<larowlan@previousnext.com.au>
 
 [@larowlan](https://twitter.com/larowlan)
